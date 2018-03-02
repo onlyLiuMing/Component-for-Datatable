@@ -4,6 +4,11 @@
  * 
  * 这里参考dastatable-responsive组件，写了一个  ‘简洁版editor’  的组件，因为只参考了单一组件，在设计上可能会有偏差，如有更好的方式，可以直接修改本文件（请做好注释哦！！）
  * datatable中的配置：
+				columns:[
+          				  {data:'name',editor:true},//这里的editor必须为true才能进行编辑
+          				  {data:'age',editor:true},
+          				  {data:'sex',editor:true},
+          			],
  * 				editor:{
  * 				  editor:true,
  * 					 focusStyle:'className',      //这里写className 
